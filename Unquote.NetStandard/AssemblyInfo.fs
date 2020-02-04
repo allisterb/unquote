@@ -39,4 +39,6 @@ open System.Runtime.InteropServices
 
 //use odd number revision number (fourth position) to indicate pre-release
 [<assembly: AssemblyVersion("5.0.0.0")>]
+
+[<assembly: InternalsVisibleTo("Sylvester.Expressions")>]
 ()
