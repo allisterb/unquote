@@ -15,7 +15,7 @@ limitations under the License.
 *)
 
 ///Extra reflection functions sprinting and reducing Quotation Expressions
-module internal Swensen.Unquote.ExtraReflection
+module Swensen.Unquote.ExtraReflection
 open System
 open System.Reflection
 open Microsoft.FSharp.Reflection
